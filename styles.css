@@ -25,3 +25,7 @@ a {
     background: transparent;
     color: black;
 }
+
+#portfolio {
+    opacity: 50%;
+}
