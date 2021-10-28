@@ -10,6 +10,19 @@ img {
     border-radius: 50%;
 }
 
+h1 {
+  font-size: 4rem;
+  font-family: 'Roboto';
+-webkit-text-stroke: 3px black;
+color: #f2a3f6;
+text-shadow:
+    3px 3px 0 #000,
+  -1px -1px 0 #000,  
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
 
 button {
     font-size: 2rem;
