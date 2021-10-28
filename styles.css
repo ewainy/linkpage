@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,900;1,900&family=Roboto:wght@900&display=swap');
+*{  
+    font-family: 'Playfair Display'; 
+   background-color:#fef6ff;
+   text-align: center;
+}
+
+img {
+    border: 3px black solid;
+    border-radius: 50%;
+}
+
+button {
+    font-size: 50px;
+background: linear-gradient(45deg, rgba(253,233,255,1) 0%, rgba(244,197,255,1) 15%, rgba(205,201,255,1) 40%, rgba(199,226,255,1) 70%, rgba(194,255,251,1) 100%);
+border: 3px solid black;
+border-radius: 15px;
+padding: 10px;
+}
+
+
+
