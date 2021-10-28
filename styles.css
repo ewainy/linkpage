@@ -17,10 +17,9 @@ background: linear-gradient(45deg, rgba(253,233,255,1) 0%, rgba(244,197,255,1) 1
 border: 3px solid black;
 border-radius: 15px;
 padding: 10px;
-margin: 5px;
+margin: 10px;
 width: 50%;
 }
-
 
 button:hover {
     background: linear-gradient(225deg, rgba(253,233,255,1) 0%, rgba(244,197,255,1) 15%, rgba(205,201,255,1) 40%, rgba(199,226,255,1) 70%, rgba(194,255,251,1) 100%);
@@ -32,8 +31,11 @@ button:hover {
     cursor:pointer;
 }
 
-
-
 #portfolio {
     opacity: 50%;
+}
+#portfolio:hover {
+    transform:none;
+    box-shadow: none;
+    cursor: default;
 }
