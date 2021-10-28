@@ -23,6 +23,19 @@ text-shadow:
     1px 1px 0 #000;  
 }
 
+article {
+margin: 5%;
+}
+
+span {
+    background-color: #f2a3f6;
+}
+
+p {
+    font-size: 1.15rem;
+    line-height: 1cm;
+}
+
 
 button {
     font-size: 2rem;
