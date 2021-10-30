@@ -10,8 +10,9 @@ body {
     border-image: linear-gradient( rgb(253, 0, 219),  rgb(125, 71, 252),  rgb(87, 186, 248), rgb(2, 248, 207)) 1;
 margin: 0 auto;
 padding-bottom: 5%;
-
     }
+
+    
 
 img {
     margin-top: 5%;
@@ -19,7 +20,7 @@ img {
     border-radius: 50%;
 }
 
-h1 {
+h1,h2 {
   font-size: 4rem;
   font-family: 'Roboto';
 -webkit-text-stroke: 3px black;
@@ -30,6 +31,10 @@ text-shadow:
    1px -1px 0 #000,
    -1px 1px 0 #000,
     1px 1px 0 #000;  
+}
+
+h2 {
+    font-size: 3rem;
 }
 
 article {
@@ -77,6 +82,28 @@ button:hover {
     cursor: default;
 }
 
+div{
+    font-size: 2rem;
+  border: 3px black solid;
+  display:inline-block;
+  border-radius: 15px;
+  padding:10px;
+  background:linear-gradient(45deg, rgba(253,233,255,0.3) 0%, rgba(244,197,255,0.3) 15%, rgba(205,201,255,0.3) 40%, rgba(199,226,255,0.3) 70%, rgba(194,255,251,0.3) 100%);
+  width:48%;
+  margin:10px;
+
+}
+
+.twitter-timeline {
+    background-color:rgb(255, 255, 255,0);
+
+}
+
+
+
+
+
+
 @media only screen and (max-width: 420px) {
     
     body {
@@ -91,7 +118,9 @@ button:hover {
     }
     
     h2 {
-        font-size: 1.25rem;
+        font-size: 2.5rem;
+        -webkit-text-stroke: 2px black
+
        }
 
     p {
@@ -103,4 +132,7 @@ button:hover {
         font-size: 1.25rem;
     }
 
+    div {
+        width: 75%;
+    }
 }
