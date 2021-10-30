@@ -82,7 +82,7 @@ button:hover {
     cursor: default;
 }
 
-div{
+#embed-timeline{
     font-size: 2rem;
   border: 3px black solid;
   display:inline-block;
@@ -132,7 +132,7 @@ div{
         font-size: 1.25rem;
     }
 
-    div {
+   #embed-timeline{
         width: 75%;
     }
 }
